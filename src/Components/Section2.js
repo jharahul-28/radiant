@@ -39,14 +39,6 @@ const renderRating = (rating) => {
   );
 };
 
-// const renderRating = (rating) => {
-//   return (
-//     <div className='ratings'>
-//       <p className='pRating'>{rating}</p>
-//     </div>
-//   );
-// };
-
 const ValueItem = ({ values }) => {
   const { icon,bestValue, productDescription, features, rating, ratingDescription } = values;
 
