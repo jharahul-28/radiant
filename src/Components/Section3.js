@@ -70,7 +70,7 @@ function Section3() {
         <div className='sign'>
             <p>Sign up and get exclusive special deals</p>
             <div className='field'>
-                <input></input>
+                <div className='input'></div>
                 <span>Sign Up</span>
             </div>
         </div>

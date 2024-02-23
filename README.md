@@ -8,6 +8,8 @@ In the project directory, you can run:
 
 ### `npm start`
 
+### `npm install react-icons --save`
+
 ### Description:
 This project is a website development project built using ReactJS and SCSS. It aims to create a modern, responsive, and visually appealing website using the popular frontend technologies ReactJS for dynamic user interface and SCSS for enhanced styling capabilities.
 
