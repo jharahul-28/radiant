@@ -109,7 +109,7 @@ function Section2() {
       ratingDescription: "exceptional"
     },
     {
-      key: 4,
+      key: 9.3,
       bestValue: "",
       productDescription: "SiteCraft 68-Inch Ultimate Web Design Studio- Advanced Site Creation Toolkit, Intuitive Drag-and-Drop Editor for Dynamic Websites and E-commerce Platforms (Green/White)",
       features: "[What You Get]: Gain access to the SiteCraft design studio, featuring a robust selection of design elements, SEO optimization tools, and e-commerce integrations.",
