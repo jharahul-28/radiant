@@ -1,0 +1,21 @@
+.main{
+    background-color: #212731;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    color: white;
+    h3{
+        font-size: 20px;
+    }
+    p{
+        font-size: 14px;
+        padding: 5px;
+    }
+    .country{
+        select{
+            border: none;
+            border-radius: 5px;
+            padding: 5px;
+        }
+    }
+}

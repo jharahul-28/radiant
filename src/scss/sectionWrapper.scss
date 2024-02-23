@@ -1,0 +1,64 @@
+@mixin flexRow($jc){
+    display: flex;
+    flex-direction: row;
+    justify-content: $jc;
+    align-items: center;
+}
+
+@mixin flexCol(){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.deal{
+    @include flexCol();
+    .details{
+        color: #626E79;
+        line-height: 24px;
+        .line1{
+            @include flexRow(none);
+            gap: 1rem;
+            p{
+                background-color: #F2F4F7;
+                color: #074786;
+                border-radius: 4px;
+                padding: 5px;
+                margin: 10px 0;
+            }
+        }
+        .name{
+            text-align: center;
+            p{
+                font-weight: 600;
+                color: #626E79;
+            }
+        }
+        .price{
+            line-height: 28px;
+            display: flex;
+            gap: 1rem;
+            .price1{
+                font-size: 20px;
+                color: #5C6874;
+            }
+            .price2{
+                font-size: 14px;
+                color: #9FA9B3;
+            }
+            .discount{
+                font-size: 13px;
+                color: #EF4C5D;
+            }
+        }
+        button{
+            width: 100%;
+            background-color: #1B88F4;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 12px;
+        }
+    }
+}
