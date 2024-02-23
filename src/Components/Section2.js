@@ -105,7 +105,7 @@ function Section2() {
       bestValue: "",
       productDescription: "WixPro 72-Inch Responsive Website Builder- Comprehensive Digital Platform Creation Tool, Streamlined Design Interface for Professional Websites and Online Stores (Black/Blue)",
       features: "[What You Get]: Gain access to the SiteCraft design studio, featuring a robust selection of design elements, SEO optimization tools, and e-commerce integrations.",
-      rating: 9.3,
+      rating: 4,
       ratingDescription: "exceptional"
     },
     {
