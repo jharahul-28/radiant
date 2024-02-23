@@ -2,9 +2,8 @@ import React from 'react';
 import img from './download3.png';
 import '../scss/section.css'
 import { IoTrophyOutline } from "react-icons/io5";
-
 import { IoDiamondOutline } from "react-icons/io5";
-
+import { FaStar } from "react-icons/fa"
 
 const highlightProductName = (productDescription) => {
   const highlightedDescription = productDescription.replace(
@@ -27,12 +26,26 @@ const renderBestValue = (icon,bestValue) => {
 };
 
 const renderRating = (rating) => {
+  const numStars = Math.round(rating / 2);
+  const stars = [];
+  for (let i = 0; i < numStars; i++) {
+    stars.push(<FaStar key={i} />);
+  }
   return (
-    <div className='ratings'>
-      <p className='pRating'>{rating}</p>
+    <div className="ratings">
+      <p>{rating}</p>
+      {stars}
     </div>
   );
 };
+
+// const renderRating = (rating) => {
+//   return (
+//     <div className='ratings'>
+//       <p className='pRating'>{rating}</p>
+//     </div>
+//   );
+// };
 
 const ValueItem = ({ values }) => {
   const { icon,bestValue, productDescription, features, rating, ratingDescription } = values;

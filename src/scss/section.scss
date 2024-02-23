@@ -77,6 +77,8 @@
                 padding: 0.75rem;
                 color: white;
                 border-radius: 5px;
+                justify-content: center;
+                align-items: center;
             }
             .rlContainer{
                 display: flex;
@@ -155,6 +157,8 @@
         .deal{
             @include flexCol();
             .details{
+                @include flexCol();
+                gap: 0.5rem;
                 color: #626E79;
                 line-height: 24px;
                 .line1{
